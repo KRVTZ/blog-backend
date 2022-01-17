@@ -1,0 +1,24 @@
+{
+  "name": "wm-blog-bootstrap",
+  "version": "1.0.0",
+  "description": "A simple blog template based on Bootstrap ",
+  "main": "app/server.js",
+  "scripts": {
+    "devstart": "nodemon app/server.js",
+    "dev": "npx nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Welison Menezes",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "bulma": "^0.7.5",
+    "bulma-carousel": "^3.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "jquery": "^3.6.0",
+    "mongoose": "^5.13.14",
+    "nodemon": "^2.0.15",
+    "save-dev": "0.0.1-security"
+  }
+}
